@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-<head>
-    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
-    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
-    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
-    <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;height:100% !important;width:100% !important;background-color:#f1f1f1;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;" >
+<head style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+    <meta charset="utf-8" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" > <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" > <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" > <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" ></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
 
     <!-- CSS Reset : BEGIN -->
-    <style>
+    <style style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
 
-        /* What it does: Remove spaces around the email design added by some email clients. */
-        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+        
+        
         html,
 body {
     margin: 0 auto !important;
@@ -24,25 +24,25 @@ body {
     background: #f1f1f1;
 }
 
-/* What it does: Stops email clients resizing small text. */
+
 * {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
-/* What it does: Centers email on Android 4.4 */
+
 div[style*="margin: 16px 0"] {
     margin: 0 !important;
 }
 
-/* What it does: Stops Outlook from adding extra spacing to tables. */
+
 table,
 td {
     mso-table-lspace: 0pt !important;
     mso-table-rspace: 0pt !important;
 }
 
-/* What it does: Fixes webkit padding issue. */
+
 table {
     border-spacing: 0 !important;
     border-collapse: collapse !important;
@@ -50,18 +50,18 @@ table {
     margin: 0 auto !important;
 }
 
-/* What it does: Uses a better rendering method when resizing email_imgs in IE. */
+
 img {
     -ms-interpolation-mode:bicubic;
 }
 
-/* What it does: Prevents Windows 10 Mail from underlining links despite inline CSS. Styles for underlined links should be inline. */
+
 a {
     text-decoration: none;
 }
 
-/* What it does: A work-around for email clients meddling in triggered links. */
-*[x-apple-data-detectors],  /* iOS */
+
+*[x-apple-data-detectors],  
 .unstyle-auto-detected-links *,
 .aBn {
     border-bottom: 0 !important;
@@ -74,38 +74,38 @@ a {
     line-height: inherit !important;
 }
 
-/* What it does: Prevents Gmail from displaying a download button on large, non-linked email_imgs. */
+
 .a6S {
     display: none !important;
     opacity: 0.01 !important;
 }
 
-/* What it does: Prevents Gmail from changing the text color in conversation threads. */
+
 .im {
     color: inherit !important;
 }
 
-/* If the above doesn't work, add a .g-img class to any image in question. */
+
 img.g-img + div {
     display: none !important;
 }
 
-/* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
-/* Create one of these media queries for each additional viewport size you'd like to fix */
 
-/* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+
+
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
     u ~ div .email-container {
         min-width: 320px !important;
     }
 }
-/* iPhone 6, 6S, 7, 8, and X */
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
     u ~ div .email-container {
         min-width: 375px !important;
     }
 }
-/* iPhone 6+, 7+, and 8+ */
+
 @media only screen and (min-device-width: 414px) {
     u ~ div .email-container {
         min-width: 414px !important;
@@ -116,7 +116,7 @@ img.g-img + div {
     <!-- CSS Reset : END -->
 
     <!-- Progressive Enhancements : BEGIN -->
-    <style>
+    <style style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
 
 	    .primary{
 	background: #feb062;
@@ -137,7 +137,7 @@ img.g-img + div {
 	padding:2.5em;
 }
 
-/*BUTTON*/
+
 .btn{
 	padding: 5px 20px;
 	display: inline-block;
@@ -192,7 +192,7 @@ a{
 
 table{
 }
-/*LOGO*/
+
 
 .logo h1{
 	margin: 0;
@@ -201,14 +201,14 @@ table{
 	color: #000000;
 	font-size: 30px;
 	font-weight: 700;
-	/*text-transform: uppercase;*/
+	
 	font-family: 'Playfair Display', sans-serif;
 }
 
 .navigation{
 	padding: 0;
 	padding: 1em 0;
-	/*background: rgba(0,0,0,1);*/
+	
 	border-top: 1px solid rgba(0,0,0,.05);
 	border-bottom: 1px solid rgba(0,0,0,.05);
 	margin-bottom: 0;
@@ -226,7 +226,7 @@ table{
 	color: rgba(0,0,0,1);
 }
 
-/*HERO*/
+
 .hero{
 	position: relative;
 	z-index: 0;
@@ -260,7 +260,7 @@ table{
 	color: #feb062;
 }
 
-/*INTRO*/
+
 .intro{
 	position: relative;
 	z-index: 0;
@@ -280,7 +280,7 @@ table{
 	color: #feb062;
 }
 
-/*SERVICES*/
+
 .services{
 }
 .text-services{
@@ -308,7 +308,7 @@ table{
 	margin: 0;
 }
 
-/*PROPETIES*/
+
 .properties{
 }
 .text-properties{
@@ -329,7 +329,7 @@ table{
 	color: #000;
 	font-size: 18px;
 }
-/*COUNTER*/
+
 .counter{
 	width: 100%;
 	position: relative;
@@ -363,7 +363,7 @@ table{
 }
 
 
-/*HEADING SECTION*/
+
 .heading-section{
 }
 .heading-section h2{
@@ -423,7 +423,7 @@ ul.social li{
 	margin-right: 10px;
 }
 
-/*FOOTER*/
+
 
 .footer{
 	border-top: 1px solid rgba(0,0,0,.05);
@@ -457,105 +457,106 @@ ul.social li{
 
 </head>
 
-<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;">
-	<center style="width: 100%; background-color: #f1f1f1;">
-    <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+<body width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;mso-line-height-rule:exactly;background-color:#222222;height:100% !important;width:100% !important;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;font-family:'Lato', sans-serif;font-weight:400;font-size:15px;line-height:1.8;color:rgba(0,0,0,.5);" >
+	<center style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100%;background-color:#f1f1f1;" >
+    <div style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;display:none;font-size:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family:sans-serif;" >
       &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
     </div>
-    <div style="max-width: 600px; margin: 0 auto;" class="email-container">
+    <div  class="email-container" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;max-width:600px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" >
     	<!-- BEGIN BODY -->
-      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
-      	<tr>
-          <td valign="top" class="bg_white" style="padding: 1em 2.5em 0 2.5em;">
-          	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-          		<tr>
-          			<td class="logo" style="text-align: center;">
-			            <h1><a href="http://salesjunglere.biz">Sales Jungle LLC</a></h1>
+      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;" >
+      	<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td valign="top" class="bg_white" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:1em;padding-bottom:0;padding-right:2.5em;padding-left:2.5em;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#ffffff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;" >
+          	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+          		<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          			
+          			<td class="logo" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-align:center;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+			            <h1 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;font-weight:400;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;" ><a href="http://salesjunglere.biz"><img src="https://i.postimg.cc/XNgp8nt3/logo.png" width="70" border="0" style="vertical-align:middle;"></a></h1>
 			          </td>
           		</tr>
           	</table>
           </td>
 	      </tr><!-- end tr -->
-	      <tr>
-          <td valign="top" class="bg_white" style="padding: 0;">
-          	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-          		<tr>
-			          <td width="60%" style="text-align: center;">
-			            <ul class="navigation">
-			            	<li><a href="http://salesjunglere.biz">Home</a></li>
-			            	<li><a href="http://salesjunglere.biz#portfolio">Properties</a></li>
-			            	<li><a href="http://salesjunglere.biz#contact">Contact</a></li>
+	      <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td valign="top" class="bg_white" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#ffffff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;" >
+          	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+          		<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+			          <td width="60%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-align:center;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+			            <ul class="navigation" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:1em;padding-bottom:1em;padding-right:0;padding-left:0;border-top-width:1px;border-top-style:solid;border-top-color:rgba(0,0,0,.05);border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgba(0,0,0,.05);margin-bottom:0;" >
+			            	<li style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;list-style-type:none;list-style-position:outside;list-style-image:none;display:inline-block;margin-left:5px;margin-right:5px;font-size:13px;font-weight:500;text-transform:uppercase;" ><a href="http://salesjunglere.biz" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-decoration:none;color:rgba(0,0,0,1);" >Home</a></li>
+			            	<li style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;list-style-type:none;list-style-position:outside;list-style-image:none;display:inline-block;margin-left:5px;margin-right:5px;font-size:13px;font-weight:500;text-transform:uppercase;" ><a href="http://salesjunglere.biz#portfolio" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-decoration:none;color:rgba(0,0,0,1);" >Properties</a></li>
+			            	<li style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;list-style-type:none;list-style-position:outside;list-style-image:none;display:inline-block;margin-left:5px;margin-right:5px;font-size:13px;font-weight:500;text-transform:uppercase;" ><a href="http://salesjunglere.biz#contact" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-decoration:none;color:rgba(0,0,0,1);" >Contact</a></li>
 			            </ul>
 			          </td>
           		</tr>
           	</table>
           </td>
 	      </tr><!-- end tr -->
-	      <tr>
-          <td valign="middle" class="hero bg_white" style="background-image: url(https://i.postimg.cc/L5v1mwBn/bg-1.jpg); background-size: cover; height: 400px;">
-          	<div class="overlay"></div>
-            <table>
-            	<tr>
-            		<td>
-            			<div class="text" style="padding: 0 4em; text-align: center;">
-            				<h2>Real Estate</h2>
-            				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            				<p><a href="http://salesjunglere.biz" class="btn btn-primary">Browse Properties</a></p>
+	      <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td valign="middle" class="hero bg_white" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;background-image:url(https://i.postimg.cc/L5v1mwBn/bg-1.jpg);background-size:cover;height:400px;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#ffffff;background-repeat:repeat;background-position:top left;background-attachment:scroll;position:relative;z-index:0;" >
+          	<div class="overlay" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;position:absolute;top:0;left:0;right:0;bottom:0;content:'';width:100%;background-color:#000000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;z-index:-1;opacity:.2;" ></div>
+            <table style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+            	<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+            		<td style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+            			<div class="text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:0;padding-bottom:0;padding-right:4em;padding-left:4em;text-align:center;color:rgba(255,255,255,.9);max-width:50%;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" >
+            				<h2 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;margin-top:0;color:#fff;font-size:34px;margin-bottom:0;font-weight:700;line-height:1.4;" >Sales Jungle</h2>
+            				<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            				<a rel="nofollow" style="color:#ffffff;background-color:#feb062;display:inline-block;font-family:Helvetica Neue;font-size:16px;line-height:30px;text-align:center;font-weight:bold;text-decoration:none;padding:5px 20px;border-radius:3px;text-transform:none;" target="_blank" href="http://salesjunglere.biz">Browse Properties</a>
             			</div>
             		</td>
             	</tr>
             </table>
           </td>
 	      </tr><!-- end tr -->
-				<tr>
-          <td valign="middle" class="intro bg_white" style="padding: 2em 0 4em 0;">
-            <table>
-            	<tr>
-            		<td>
-            			<div class="text" style="padding: 0 2.5em; text-align: center;">
-            				<h2>Buy House in Best Price</h2>
-            				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            				<p><a href="http://salesjunglere.biz" class="btn btn-black">Browse Properties</a></p>
+				<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td valign="middle" class="intro bg_white" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:2em;padding-bottom:4em;padding-right:0;padding-left:0;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#ffffff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;position:relative;z-index:0;" >
+            <table style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+            	<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+            		<td style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+            			<div class="text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:0;padding-bottom:0;padding-right:2.5em;padding-left:2.5em;text-align:center;color:rgba(0,0,0,.3);" >
+            				<h2 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;margin-top:0;color:#000;font-size:34px;margin-bottom:0;font-weight:300;" >Buy House in Best Price</h2>
+            				<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            				<a rel="nofollow" style="color:#ffffff;background-color:#feb062;display:inline-block;font-family:Helvetica Neue;font-size:16px;line-height:30px;text-align:center;font-weight:bold;text-decoration:none;padding:5px 20px;border-radius:3px;text-transform:none;" target="_blank" href="http://salesjunglere.biz">Browse Properties</a>
             			</div>
             		</td>
             	</tr>
             </table>
           </td>
 	      </tr><!-- end tr -->
-	      <tr>
-          <td class="bg_light email-section">
-          	<div class="heading-section" style="text-align: center; padding: 0 30px;">
-            	<h2>Our Services</h2>
-            	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	      <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td class="bg_light email-section" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#fafafa;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;padding-top:2.5em;padding-bottom:2.5em;padding-right:2.5em;padding-left:2.5em;" >
+          	<div class="heading-section" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-align:center;padding-top:0;padding-bottom:0;padding-right:30px;padding-left:30px;" >
+            	<h2 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;font-size:28px;margin-top:0;line-height:1.4;font-weight:400;" >Our Services</h2>
+            	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
           	</div>
-          	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-          		<tr>
-          			<td valign="top" width="50%" style="padding-top: 20px;" class="services">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td class="icon">
-                        <img src="https://i.postimg.cc/25Pdts2Y/blueprint.png" alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
+          	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+          		<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          			<td valign="top" width="50%"  class="services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:20px;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="icon" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                        <img src="https://i.postimg.cc/25Pdts2Y/blueprint.png" alt="" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100px;max-width:600px;height:auto;margin-top:auto;margin-bottom:auto;margin-right:auto;margin-left:auto;display:block;-ms-interpolation-mode:bicubic;" >
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-services">
-                      	<h3>Layout</h3>
-                       	<p>Far far away, behind the word mountains, far from the countries</p>
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="text-services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;padding-top:10px;padding-bottom:0;padding-right:10px;padding-left:10px;text-align:center;" >
+                      	<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;margin-top:0;font-size:18px;font-weight:400;" >Layout</h3>
+                       	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >Far far away, behind the word mountains, far from the countries</p>
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td valign="top" width="50%" style="padding-top: 20px;" class="services">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td class="icon">
-                        <img src="https://i.postimg.cc/WzVGN0Bf/skyline.png" alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
+                <td valign="top" width="50%"  class="services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:20px;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="icon" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                        <img src="https://i.postimg.cc/WzVGN0Bf/skyline.png" alt="" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100px;max-width:600px;height:auto;margin-top:auto;margin-bottom:auto;margin-right:auto;margin-left:auto;display:block;-ms-interpolation-mode:bicubic;" >
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-services">
-                      	<h3>Design</h3>
-                       	<p>Far far away, behind the word mountains, far from the countries</p>
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="text-services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;padding-top:10px;padding-bottom:0;padding-right:10px;padding-left:10px;text-align:center;" >
+                      	<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;margin-top:0;font-size:18px;font-weight:400;" >Design</h3>
+                       	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >Far far away, behind the word mountains, far from the countries</p>
                       </td>
                     </tr>
                   </table>
@@ -564,84 +565,84 @@ ul.social li{
           	</table>
           </td>
         </tr><!-- end: tr -->
-        <tr>
-          <td class="bg_white email-section">
-          	<div class="heading-section" style="text-align: center; padding: 0 30px;">
-            	<h2>Properties For Sale</h2>
-            	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td class="bg_white email-section" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#ffffff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;padding-top:2.5em;padding-bottom:2.5em;padding-right:2.5em;padding-left:2.5em;" >
+          	<div class="heading-section" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-align:center;padding-top:0;padding-bottom:0;padding-right:30px;padding-left:30px;" >
+            	<h2 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;font-size:28px;margin-top:0;line-height:1.4;font-weight:400;" >Properties For Sale</h2>
+            	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
           	</div>
-          		<a href="https://www.zillow.com/homedetails/24834-Fernglen-Dr-Katy-TX-77494/27606865_zpid/">
-          		<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-          		<tr>
-          			<td valign="top" width="50%" style="padding-top: 20px; padding-right: 10px;" class="services">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td>
-                        <img src="https://i.postimg.cc/KvqMwX8W/properties-1.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+          		<a href="https://www.zillow.com/homedetails/24834-Fernglen-Dr-Katy-TX-77494/27606865_zpid/" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-decoration:none;color:#feb062;" >
+          		<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+          		<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          			<td valign="top" width="50%"  class="services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:20px;padding-right:10px;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                        <img src="https://i.postimg.cc/KvqMwX8W/properties-1.jpg" alt="" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;height:auto;margin-top:auto;margin-bottom:auto;margin-right:auto;margin-left:auto;display:block;-ms-interpolation-mode:bicubic;" >
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-properties">
-                      	<h3>Residential House</h3>
-                      	<p class="meta"><span>3,501 sqft</span> <span>4 Bed</span> <span>4 bath</span></p>
-                      	<span class="price">$406,318</span>
-                       	<p>Single Family House</p>
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="text-properties" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;padding-top:10px;padding-bottom:10px;padding-right:0;padding-left:0;text-align:center;border-width:1px;border-style:solid;border-color:rgba(0,0,0,.08);border-top-style:none;" >
+                      	<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;margin-top:0;font-size:18px;font-weight:400;margin-bottom:0;" >Residential House</h3>
+                      	<p class="meta" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;" ><span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >3,501 sqft</span> <span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >4 Bed</span> <span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >4 bath</span></p>
+                      	<span class="price" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#000;font-size:18px;" >$406,318</span>
+                       	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >Single Family House</p>
                       </td>
                     </tr>
                 	</table>
               	</a>
                 </td>
-                <td valign="top" width="50%" style="padding-top: 20px; padding-left: 10px;" class="services">
-                  <a href="https://www.zillow.com/homedetails/840-S-Pkwy-E-Memphis-TN-38106/42136138_zpid/">
-                  	<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td>
-                        <img src="https://i.postimg.cc/k4KNPTpb/properties-2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+                <td valign="top" width="50%"  class="services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:20px;padding-left:10px;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <a href="https://www.zillow.com/homedetails/840-S-Pkwy-E-Memphis-TN-38106/42136138_zpid/" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-decoration:none;color:#feb062;" >
+                  	<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                        <img src="https://i.postimg.cc/k4KNPTpb/properties-2.jpg" alt="" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;height:auto;margin-top:auto;margin-bottom:auto;margin-right:auto;margin-left:auto;display:block;-ms-interpolation-mode:bicubic;" >
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-properties">
-                      	<h3>Residential House</h3>
-                      	<p class="meta"><span>1,176 sqft</span> <span>3 Bed</span> <span>1 bath</span></p>
-                      	<span class="price">$29,000</span>
-                       	<p>Single Family House</p>
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="text-properties" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;padding-top:10px;padding-bottom:10px;padding-right:0;padding-left:0;text-align:center;border-width:1px;border-style:solid;border-color:rgba(0,0,0,.08);border-top-style:none;" >
+                      	<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;margin-top:0;font-size:18px;font-weight:400;margin-bottom:0;" >Residential House</h3>
+                      	<p class="meta" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;" ><span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >1,176 sqft</span> <span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >3 Bed</span> <span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >1 bath</span></p>
+                      	<span class="price" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#000;font-size:18px;" >$29,000</span>
+                       	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >Single Family House</p>
                       </td>
                     </tr>
                   	</table>
               		</a>
                 </td>
               </tr>
-              <tr>
-          			<td valign="top" width="50%" style="padding-top: 20px; padding-right: 10px;" class="services">
-                  <!-- <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td>
-                        <img src="email_imgs/properties-3.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+              <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          			<td valign="top" width="50%"  class="services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:20px;padding-right:10px;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <!-- <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                        <img src="email_imgs/properties-3.jpg" alt="" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;height:auto;margin-top:auto;margin-bottom:auto;margin-right:auto;margin-left:auto;display:block;-ms-interpolation-mode:bicubic;" >
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-properties">
-                      	<h3>Residential House</h3>
-                      	<p class="meta"><span>100 sqft</span> <span>2 Bed</span> <span>2 bath</span></p>
-                      	<span class="price">$1,000,000</span>
-                       	<p>Far far away, behind the word mountains, far from the countries</p>
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="text-properties" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;padding-top:10px;padding-bottom:10px;padding-right:0;padding-left:0;text-align:center;border-width:1px;border-style:solid;border-color:rgba(0,0,0,.08);border-top-style:none;" >
+                      	<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;margin-top:0;font-size:18px;font-weight:400;margin-bottom:0;" >Residential House</h3>
+                      	<p class="meta" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;" ><span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >100 sqft</span> <span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >2 Bed</span> <span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >2 bath</span></p>
+                      	<span class="price" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#000;font-size:18px;" >$1,000,000</span>
+                       	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >Far far away, behind the word mountains, far from the countries</p>
                       </td>
                     </tr>
                   </table> -->
                 </td>
-                <td valign="top" width="50%" style="padding-top: 20px; padding-left: 10px;" class="services">
-                  <!-- <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td>
-                        <img src="email_imgs/properties-4.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+                <td valign="top" width="50%"  class="services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:20px;padding-left:10px;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <!-- <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                        <img src="email_imgs/properties-4.jpg" alt="" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;height:auto;margin-top:auto;margin-bottom:auto;margin-right:auto;margin-left:auto;display:block;-ms-interpolation-mode:bicubic;" >
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-properties">
-                      	<h3>Residential House</h3>
-                      	<p class="meta"><span>100 sqft</span> <span>2 Bed</span> <span>2 bath</span></p>
-                      	<span class="price">$1,000,000</span>
-                       	<p>Far far away, behind the word mountains, far from the countries</p>
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="text-properties" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;padding-top:10px;padding-bottom:10px;padding-right:0;padding-left:0;text-align:center;border-width:1px;border-style:solid;border-color:rgba(0,0,0,.08);border-top-style:none;" >
+                      	<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;margin-top:0;font-size:18px;font-weight:400;margin-bottom:0;" >Residential House</h3>
+                      	<p class="meta" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;" ><span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >100 sqft</span> <span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >2 Bed</span> <span style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >2 bath</span></p>
+                      	<span class="price" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#000;font-size:18px;" >$1,000,000</span>
+                       	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >Far far away, behind the word mountains, far from the countries</p>
                       </td>
                     </tr>
                   </table> -->
@@ -650,37 +651,37 @@ ul.social li{
           	</table>
           </td>
         </tr><!-- end: tr -->
-        <tr>
-          <td valign="middle" class="counter" style="background-image: url(email_imgs/bg_1.jpg); background-size: cover; background-position: center center; padding: 4em 0;">
-          	<div class="overlay"></div>
-            <table>
-            	<tr>
-            		<td valign="middle" width="33.333%">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td class="counter-text">
-                      	<span class="num">200</span>
-                      	<span class="name">Agents</span>
+        <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td valign="middle" class="counter" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;background-image:url(email_imgs/bg_1.jpg);background-size:cover;background-position:center center;padding-top:4em;padding-bottom:4em;padding-right:0;padding-left:0;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;width:100%;position:relative;z-index:0;" >
+          	<div class="overlay" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;position:absolute;top:0;left:0;right:0;bottom:0;content:'';width:100%;background-color:#000000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;z-index:-1;opacity:.3;" ></div>
+            <table style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+            	<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+            		<td valign="middle" width="33.333%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="counter-text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;text-align:center;" >
+                      	<span class="num" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;display:block;color:#ffffff;font-size:34px;font-weight:700;" >200</span>
+                      	<span class="name" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;display:block;color:rgba(255,255,255,.9);font-size:13px;" >Agents</span>
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td valign="middle" width="33.333%">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td class="counter-text">
-                      	<span class="num">1200</span>
-                      	<span class="name">happy Clients</span>
+                <td valign="middle" width="33.333%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="counter-text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;text-align:center;" >
+                      	<span class="num" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;display:block;color:#ffffff;font-size:34px;font-weight:700;" >1200</span>
+                      	<span class="name" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;display:block;color:rgba(255,255,255,.9);font-size:13px;" >happy Clients</span>
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td valign="middle" width="33.333%">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td class="counter-text">
-                      	<span class="num">1000</span>
-                      	<span class="name">Sold Properties</span>
+                <td valign="middle" width="33.333%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+                    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+                      <td class="counter-text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;text-align:center;" >
+                      	<span class="num" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;display:block;color:#ffffff;font-size:34px;font-weight:700;" >1000</span>
+                      	<span class="name" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;display:block;color:rgba(255,255,255,.9);font-size:13px;" >Sold Properties</span>
                       </td>
                     </tr>
                   </table>
@@ -689,44 +690,44 @@ ul.social li{
             </table>
           </td>
 	      </tr><!-- end tr -->
-				<tr>
-	        <td class="bg_white email-section" style="width: 100%;">
-	        	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-	        		<tr>
-	        			<td valign="middle" width="50%">
-	                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-	                  <tr>
-	                    <td class="text-services" style="text-align: left; padding-right:25px;">
-	                    	<div class="heading-section">
-					              	<h2>Our Features</h2>
+				<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+	        <td class="bg_white email-section" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#ffffff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;padding-top:2.5em;padding-bottom:2.5em;padding-right:2.5em;padding-left:2.5em;" >
+	        	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+	        		<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+	        			<td valign="middle" width="50%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+	                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+	                  <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+	                    <td class="text-services" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-align:left;padding-right:25px;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;padding-top:10px;padding-bottom:0;padding-left:10px;" >
+	                    	<div class="heading-section" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+					              	<h2 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;font-size:28px;margin-top:0;line-height:1.4;font-weight:400;" >Our Features</h2>
 					            	</div>
-					            	<div class="services-list">
-					            		<div class="text">
-					            			<h3>Responsive</h3>
-					            			<p>A small river named Duden flows by their</p>
+					            	<div class="services-list" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;margin-bottom:20px;margin-right:0;margin-left:0;width:100%;" >
+					            		<div class="text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+					            			<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;font-size:18px;font-weight:400;margin-top:0;margin-bottom:0;" >Responsive</h3>
+					            			<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;" >A small river named Duden flows by their</p>
 					            		</div>
 					            	</div>
-					            	<div class="services-list">
-					            		<div class="text">
-					            			<h3>Modern Design</h3>
-					            			<p>A small river named Duden flows by their</p>
+					            	<div class="services-list" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;margin-bottom:20px;margin-right:0;margin-left:0;width:100%;" >
+					            		<div class="text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+					            			<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;font-size:18px;font-weight:400;margin-top:0;margin-bottom:0;" >Modern Design</h3>
+					            			<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;" >A small river named Duden flows by their</p>
 					            		</div>
 					            	</div>
-					            	<div class="services-list">
-					            		<div class="text">
-					            			<h3>Minimal Design</h3>
-					            			<p>A small river named Duden flows by their</p>
+					            	<div class="services-list" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;margin-bottom:20px;margin-right:0;margin-left:0;width:100%;" >
+					            		<div class="text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+					            			<h3 style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;color:#000000;font-size:18px;font-weight:400;margin-top:0;margin-bottom:0;" >Minimal Design</h3>
+					            			<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;" >A small river named Duden flows by their</p>
 					            		</div>
 					            	</div>
 	                    </td>
 	                  </tr>
 	                </table>
 	              </td>
-	        			<td valign="middle" width="50%">
-	                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-	                  <tr>
-	                    <td>
-	                      <img src="https://i.postimg.cc/sDVYb99M/about.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+	        			<td valign="middle" width="50%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+	                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+	                  <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+	                    <td style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+	                      <img src="https://i.postimg.cc/sDVYb99M/about.jpg" alt="" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;height:auto;margin-top:auto;margin-bottom:auto;margin-right:auto;margin-left:auto;display:block;-ms-interpolation-mode:bicubic;" >
 	                    </td>
 	                  </tr>
 	                </table>
@@ -735,13 +736,13 @@ ul.social li{
 	        	</table>
 	        </td>
 	      </tr><!-- end: tr -->
-		    <tr>
-          <td valign="middle" class="bg_white" style="padding: 2em 0;">
-            <table>
-            	<tr>
-            		<td>
-            			<div class="text" style="padding: 0 2.5em; text-align: center;">
-            				<p><a href="http://salesjunglere.biz" class="btn btn-black-outline">Start Browsing</a></p>
+		    <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td valign="middle" class="bg_white" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:2em;padding-bottom:2em;padding-right:0;padding-left:0;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#ffffff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;" >
+            <table style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+            	<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+            		<td style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+            			<div class="text" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:0;padding-bottom:0;padding-right:2.5em;padding-left:2.5em;text-align:center;" >
+            				<a rel="nofollow" style="color:#ffffff;background-color:#feb062;display:inline-block;font-family:Helvetica Neue;font-size:16px;line-height:30px;text-align:center;font-weight:bold;text-decoration:none;padding:5px 20px;border-radius:3px;text-transform:none;" target="_blank" href="http://salesjunglere.biz">Start Browsing</a>
             			</div>
             		</td>
             	</tr>
@@ -750,28 +751,29 @@ ul.social li{
 	      </tr><!-- end tr -->
       <!-- 1 Column Text + Button : END -->
       </table>
-      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
-      	<tr>
-          <td valign="middle" class="bg_white footer">
-            <table>
-            	<tr style="text-align: left;">
-                <td valign="middle" width="60%" style="padding-top: 20px; text-align: left;">
-                	<h3 class="heading">Stay Updated On Newest Properties</h3>
+      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;" >
+      	<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td valign="middle" class="bg_white footer" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#ffffff;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;border-top-width:1px;border-top-style:solid;border-top-color:rgba(0,0,0,.05);color:rgba(0,0,0,.5);" >
+            <table style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;border-spacing:0 !important;border-collapse:collapse !important;table-layout:fixed !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;" >
+            	<tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-align:left;" >
+                <td valign="middle" width="60%" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;padding-top:20px;text-align:left;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;" >
+                	<h3 class="heading" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Playfair Display', sans-serif;margin-top:0;font-weight:400;color:#000;font-size:20px;" >Stay Updated On Newest Properties</h3>
                 </td>
-                <td valign="middle" width="40%" style="padding-top: 20px; text-align: right;">
-                	<ul class="social">
-                		<li><img src="https://i.postimg.cc/FsZZKnsb/004-twitter-logo.png" alt="" style="width: 24px; max-width: 600px; height: auto; display: block;"></li>
-                		<a href="https://web.facebook.com/salesjinglellc"><li><img src="https://i.postimg.cc/jS34HwfL/005-facebook.png" alt="" style="width: 24px; max-width: 600px; height: auto; display: block;"></li></a>
-                		<a href="https://www.instagram.com/salesjunglellc"><li><img src="https://i.postimg.cc/rpdCQVGg/006-instagram-logo.png" alt="" style="width: 24px; max-width: 600px; height: auto; display: block;"></li></a>
-                	</ul>
+
+				<td align="center" class="yiv1152753013center" style="text-align:center;padding:10px 10px 10px 10px;">
+                     
+                     <a rel="nofollow" target="_blank" href="#" style="display:inline-block;margin:2px;"><img height="40" src="https://i.postimg.cc/FsZZKnsb/004-twitter-logo.png" width="40"></a>
+                     
+                     <a rel="nofollow" target="_blank" href="https://web.facebook.com/salesjinglellc" style="display:inline-block;margin:2px;"><img height="40" src="https://i.postimg.cc/jS34HwfL/005-facebook.png" width="40"></a>                     
+                     <a rel="nofollow" target="_blank" href="https://www.instagram.com/salesjunglellc" style="display:inline-block;margin:2px;"><img height="40" src="https://i.postimg.cc/rpdCQVGg/006-instagram-logo.png" width="40"></a>
                 </td>
               </tr>
             </table>
           </td>
         </tr><!-- end: tr -->
-        <tr>
-          <td class="bg_light" style="text-align: center;">
-          	<p>No longer want to receive these email? You can <a href="#" style="color: rgba(0,0,0,.8);">Unsubscribe here</a></p>
+        <tr style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >
+          <td class="bg_light" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-align:center;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;background-color:#fafafa;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;" >
+          	<p style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;" >No longer want to receive these email? You can <a href="#" style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:rgba(0,0,0,.8);text-decoration:none;" >Unsubscribe here</a></p>
           </td>
         </tr>
       </table>
